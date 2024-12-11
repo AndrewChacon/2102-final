@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #db0e15;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 26px;
+	font-weight: 300;
+	text-shadow: 0 0 5px rgba(219, 14, 21, 0.8);
+	background: url(https://image.ibb.co/h2hLAJ/bg.png) #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90vw;
+}
+
+.title {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1em;
+	font-weight: 300;
+	margin: 30px 0;
+}
+
+.title::after,
+.title::before {
+	content: '';
+	display: inline-block;
+	background: url(https://image.ibb.co/gpxZLJ/top_outer.png);
+	width: 144px;
+	height: 20px;
+	margin: 0 20px;
+}
+
+.box {
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+}
+
+.box--inner::after,
+.box--inner::before {
+	content: '';
+	display: inline-block;
+	background: url(https://image.ibb.co/kvJfud/box_inner.png) no-repeat center;
+	width: 100%;
+	height: 27px;
+}
+
+.content {
+	display: block;
+	margin: 50px;
+}
+
+.btn {
+	border: none;
+	margin: 20px;
+	padding: 10px 40px;
+	width: auto;
+	overflow: visible;
+	outline: 0;
+	cursor: pointer;
+	background: 0 0;
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	background: rgba(219, 14, 21, 0.2);
+	text-transform: uppercase;
+	transition: ease-in-out 0.2s;
+}
+
+.btn:hover {
+	background: rgba(219, 14, 21, 0.5);
+	color: #db0e1589;
+}
+
+.quiz-content {
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.quiz-title {
+	margin-top: 70px;
+	/* margin-bottom: 40px; */
+	text-align: center;
+}
+.quiz-question {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.quiz-option {
+	margin-left: 40px;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+
+.quiz-btn {
+	display: block;
+	margin: 0 auto !important;
+	font-size: 40px;
+	margin-top: 30px;
+}
+
+.quiz-radio {
+	margin-right: 15px;
+	accent-color: red;
+	background-color: black;
+}
+
+.component-content {
+	width: 50%;
+}
+
+.selected {
+	text-align: center;
+}
+
+.component-option {
+}
+
+.me-text {
+	text-align: left;
+	margin: 40px 0;
+	line-height: 1.5;
+}
+
+.me-title {
+	margin-bottom: 20px;
+}
+
+.me-content {
+	width: 70%;
+	margin: 0 auto;
+}
